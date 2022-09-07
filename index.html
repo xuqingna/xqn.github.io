@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<style>
+		body {
+		      margin: 0px;
+		    }
+		.all{
+			
+		}
+		.tou{
+			height: 50px;
+			width: 100%;
+			border: 1px;
+			background-color:#ffaa00;
+		}
+		.left{
+			height: 800px;
+			width: 150px;
+			border: 1px;
+			background-color:#fffcca;
+			position:absolute;
+		}
+		.center{
+			height: 600px;
+			width: 100%;
+			margin-left: 150px;
+			/* background-color:#d4dcdf; */
+			text-align:center;
+		}
+		/* 列表属性 */
+		.btn-group .button {
+		  background-color: #efe3a7;/* 背景色 */
+		  border: 1px solid grey;
+		  color: white;
+		  padding: 15px 32px;
+		  text-align: center;
+		  text-decoration: none;
+		  font-size: 16px;
+		  cursor: pointer;
+		  width: 150px;
+		  display: block;
+		}
+		.active {
+		  background-color: #ffaa00;
+		  border:0px solid grey;
+		  display: block;
+		  width: 150px;
+		  padding: 15px 32px;
+		  text-decoration: none;
+		  font-size: 18px;
+		  font-weight: 300;
+		}
+		.btn-group .button:not(:last-child) {
+		  border-bottom: none; /* 阻止双边框 */
+		}
+		
+		.btn-group .button:hover:not(.active){
+		  background-color: #ffaa00;/* 鼠标触碰后的颜色 */
+		}
+		h1{
+			text-align: center;
+		}
+		p1{
+			  font-size: 22px;
+		}
+		.transition{
+		  width: 600px;
+		  height: 80px;
+		  transition: width 2s, height 1s;
+		  /* background-color: #f3eed1; */
+		  border-radius: 30px;
+		  text-align: center;
+		  font-size: 25px;
+		  font-weight: 500;
+		  color: #000000;
+		}
+
+		.transition:hover {
+		  width: 650px;
+		  height: 100px;
+		  font-size: 40px;
+		  font-weight: 600;
+		  color: #FFAA00;
+		  vertical-align: bottom;
+		  box-shadow: 10px 10px 5px grey;
+		}
+		zz{
+			margin-left: 10px;
+		}
+		</style>
+	</head>
+	<body>
+		<div class="all">
+			<div class="left">
+				<div class="btn-group">
+					 <button class="active">home</button>
+				    <button class="button" onclick="turnAdd1()">商品</button>
+					<button class="button" onclick="turnAdd2()">订单</button>
+				  <!-- <a href="add.html" style="text-decoration:none ">
+				          
+				        </a> -->
+				  <button class="button">Button</button>
+				  <button class="button">Button</button>
+				</div>
+			</div>
+			
+			 
+			<div class=center>
+				<div class="tou ">
+					
+				</div>
+				<h1>welcome 跑到了么</h1>
+				<br/>
+				<br/>
+				<!-- <div>
+					<h2>品类全覆盖，应有尽有</h2>
+				</div> -->
+				<div class="zz">
+					<div class="transition">美食 Delicary
+					</div>
+					<br/>
+					<div class="transition">甜点饮品 Desserts&Drinks</div>
+					<br/>
+					<div class="transition">水果生鲜 Freshfoods</div>
+					<br/>
+					<div class="transition">超市便利 Supermarket</div>
+				</div>
+		</div>
+	</body>
+	<script type="text/javascript">
+	
+	function turnAdd1() {//跳转外卖页
+	  window.location = '数据库.html'
+	}
+	function turnAdd2() {//跳转订单页
+	  window.location = 'wm.html'
+	}
+	
+	  function turnAdd4() {  //添加
+	    document.getElementById('zhezhao').style.display = "";
+	  }
+	</script>
+</html>
