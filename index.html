@@ -4,143 +4,65 @@
 		<meta charset="utf-8">
 		<title></title>
 		<style>
-		body {
-		      margin: 0px;
-		    }
-		.all{
-			
+		body{
+			margin-top: auto;
+			background-size:100%;
+			background-position: top;
+			/* background-image: url("https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fc-ssl.duitang.com%2Fuploads%2Fitem%2F202004%2F15%2F20200415233120_umdsk.thumb.400_0.gif&refer=http%3A%2F%2Fc-ssl.duitang.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1665292135&t=3f77d949b1bceaa7cb07ec52e0d0de5d") */
+			background-image:url("https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fc-ssl.duitang.com%2Fuploads%2Fitem%2F202004%2F02%2F20200402131547_iekku.thumb.1000_0.gif&refer=http%3A%2F%2Fc-ssl.duitang.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1665292653&t=c07f0049088c0c4a01aa052dbd9a45fc")
 		}
-		.tou{
-			height: 50px;
-			width: 100%;
-			border: 1px;
-			background-color:#ffaa00;
-		}
-		.left{
-			height: 800px;
-			width: 150px;
-			border: 1px;
-			background-color:#fffcca;
-			position:absolute;
-		}
-		.center{
-			height: 600px;
-			width: 100%;
-			margin-left: 150px;
-			/* background-color:#d4dcdf; */
-			text-align:center;
-		}
-		/* 列表属性 */
-		.btn-group .button {
-		  background-color: #efe3a7;/* 背景色 */
-		  border: 1px solid grey;
-		  color: white;
-		  padding: 15px 32px;
-		  text-align: center;
-		  text-decoration: none;
-		  font-size: 16px;
-		  cursor: pointer;
-		  width: 150px;
-		  display: block;
-		}
-		.active {
-		  background-color: #ffaa00;
-		  border:0px solid grey;
-		  display: block;
-		  width: 150px;
-		  padding: 15px 32px;
-		  text-decoration: none;
-		  font-size: 18px;
-		  font-weight: 300;
-		}
-		.btn-group .button:not(:last-child) {
-		  border-bottom: none; /* 阻止双边框 */
+		.box {
+		    color: rgb(6, 173, 151);
+		    width: 450px;
+		    background: rgba(0, 0, 0, 0.4);
+		    padding: 40px;
+		    text-align: center;
+		    margin: auto;
+		    margin-top: 5%;
+		    font-family: 'Century Gothic', sans-serif;
 		}
 		
-		.btn-group .button:hover:not(.active){
-		  background-color: #ffaa00;/* 鼠标触碰后的颜色 */
+		.box .box-img {
+		    width: 200px;
+		    height: 200px;
+		    border-radius: 50%;
 		}
-		h1{
-			text-align: center;
+		
+		.box h1 {
+		    font-size: 50px;
+		    letter-spacing: 4px;
+		    font-weight: 400;
 		}
-		p1{
-			  font-size: 22px;
+		
+		.box h2 {
+		    font-size: 30px;
+		    letter-spacing: 3px;
+		    font-weight: 300;
+		
 		}
-		.transition{
-		  width: 600px;
-		  height: 80px;
-		  transition: width 2s, height 1s;
-		  /* background-color: #f3eed1; */
-		  border-radius: 30px;
-		  text-align: center;
-		  font-size: 25px;
-		  font-weight: 500;
-		  color: #000000;
+		
+		.one {
+		    text-decoration: none;
+		    font-size: 20px;
+		    font-weight: 600;
+		    color: grey;
 		}
-
-		.transition:hover {
-		  width: 650px;
-		  height: 100px;
-		  font-size: 40px;
-		  font-weight: 600;
-		  color: #FFAA00;
-		  vertical-align: bottom;
-		  box-shadow: 10px 10px 5px grey;
-		}
-		zz{
-			margin-left: 10px;
+		
+		.one:hover {
+		    color: rgb(6, 173, 151);
 		}
 		</style>
 	</head>
 	<body>
-		<div class="all">
-			<div class="left">
-				<div class="btn-group">
-					 <button class="active">home</button>
-				    <button class="button" onclick="turnAdd1()">商品</button>
-					<button class="button" onclick="turnAdd2()">订单</button>
-				  <!-- <a href="add.html" style="text-decoration:none ">
-				          
-				        </a> -->
-				  <button class="button">Button</button>
-				  <button class="button">Button</button>
-				</div>
+		
+			<div class="box">
+			    <img src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fc-ssl.duitang.com%2Fuploads%2Fitem%2F201910%2F23%2F20191023163804_dinwv.thumb.700_0.jpeg&refer=http%3A%2F%2Fc-ssl.duitang.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1665389678&t=f33475bce9591799bc924526c33a2442" alt="" class="box-img">
+			    <h1 class="name">nana</h1>
+			    <h2>Hello World</h2>
+			    <h3>Welcome to my personal website!</h3>
+			    <h3>If you want to know more about me,please click this</h3>
+			    <a href="Chris2.html" class="one">nana</a>
 			</div>
-			
-			 
-			<div class=center>
-				<div class="tou ">
-					
-				</div>
-				<h1>welcome 跑到了么</h1>
-				<br/>
-				<br/>
-				<!-- <div>
-					<h2>品类全覆盖，应有尽有</h2>
-				</div> -->
-				<div class="zz">
-					<div class="transition">美食 Delicary
-					</div>
-					<br/>
-					<div class="transition">甜点饮品 Desserts&Drinks</div>
-					<br/>
-					<div class="transition">水果生鲜 Freshfoods</div>
-					<br/>
-					<div class="transition">超市便利 Supermarket</div>
-				</div>
-		</div>
+		
 	</body>
-	<script type="text/javascript">
-	
-	function turnAdd1() {//跳转外卖页
-	  window.location = '数据库.html'
-	}
-	function turnAdd2() {//跳转订单页
-	  window.location = 'wm.html'
-	}
-	
-	  function turnAdd4() {  //添加
-	    document.getElementById('zhezhao').style.display = "";
-	  }
-	</script>
 </html>
